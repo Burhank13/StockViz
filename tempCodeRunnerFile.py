@@ -1,0 +1,1 @@
+ticker = ticker.upper()
