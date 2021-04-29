@@ -16,7 +16,6 @@ def get_reddit(cid='Ic8y6tMJHDJ9yQ', csec='iT1kAugDydlph6jBgjT6dApq9T8Jwg', uag=
 
     posts = reddit.subreddit(subreddit).new(limit=None)
     #hot_bets = reddit.subreddit('wallstreetbets').hot(limit=1000)
-
     p = []
     for post in posts:
         p.append([post.title, post.score, post.selftext])
